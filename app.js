@@ -13,7 +13,12 @@ cron.schedule("*/1 * * * *", () => {
 
     const user = undefined;
 
-    console.log(user.name);
+if (!user) {
+    console.log("User not found");
+    return;
+}
+
+console.log(user.name);
 });
 
 app.listen(3000, () => {
