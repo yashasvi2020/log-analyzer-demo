@@ -1,0 +1,25 @@
+{
+  "name": "log-analyzer-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "start": "node app.js"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yashasvi2020/log-analyzer-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/yashasvi2020/log-analyzer-demo/issues"
+  },
+  "homepage": "https://github.com/yashasvi2020/log-analyzer-demo#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "node-cron": "^4.4.1"
+  }
+}
